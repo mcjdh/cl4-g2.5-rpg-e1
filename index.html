@@ -8,11 +8,26 @@
 </head>
 <body>
     <div id="game-container">
-        <canvas id="gameCanvas" width="800" height="600"></canvas>
-        <div id="ui-overlay">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>        <div id="ui-overlay">
             <div id="hud">
                 <div id="health">Health: <span id="health-value">100</span></div>
                 <div id="position">Position: <span id="position-value">0, 0</span></div>
+                <div id="level">Level: <span id="level-value">1</span></div>
+                <div id="kills">Kills: <span id="kills-value">0</span></div>
+                <div id="experience">
+                    <div>XP: <span id="xp-value">0</span>/<span id="xp-required">50</span></div>
+                    <div id="xp-bar-container">
+                        <div id="xp-bar"></div>
+                    </div>
+                </div>
+                <div id="weapon-info">
+                    <div>Weapon Level: <span id="weapon-level">1</span></div>
+                    <div>Pattern: <span id="weapon-pattern">nearest</span></div>
+                </div>
+                <div id="controls">
+                    <div>Q: Change Pattern</div>
+                    <div>E: Upgrade Multi-shot</div>
+                </div>
             </div>
         </div>
     </div>

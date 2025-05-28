@@ -46,3 +46,33 @@ body {
 #hud div:last-child {
     margin-bottom: 0;
 }
+
+#xp-bar-container {
+    width: 150px;
+    height: 10px;
+    background-color: #333;
+    border: 1px solid #555;
+    margin-top: 2px;
+}
+
+#xp-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+#weapon-info {
+    border-top: 1px solid #555;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+#controls {
+    border-top: 1px solid #555;
+    padding-top: 5px;
+    margin-top: 5px;
+    font-size: 11px;
+    color: #AAA;
+}

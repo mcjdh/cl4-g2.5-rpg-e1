@@ -102,5 +102,10 @@ export const COLORS = {
     WALL: '#34495E',
     GRID: '#1A252F',
     PLAYER: '#4A90E2',
-    UI_TEXT: '#FFFFFF'
+    UI_TEXT: '#FFFFFF',
+    PROJECTILE: '#FFD700',
+    PROJECTILE_PIERCING: '#FF6B6B',
+    PROJECTILE_HOMING: '#9B59B6',
+    ENEMY: '#E74C3C',
+    XP_BAR: '#4CAF50'
 };
